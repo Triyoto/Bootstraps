@@ -11,7 +11,7 @@ $ ('.page-scroll').on('click', function(event){
 		scrollTop : elemenTujuan.offset().top - 50
 
 
-	}
+	},1250, 'swing'
 	);
 	
 
